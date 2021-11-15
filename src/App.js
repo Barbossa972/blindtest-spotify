@@ -6,7 +6,7 @@ import Button from "./Button"
 import { shuffleArray, getRandomNumber } from "./utils"
 
 // Get token from https://developer.spotify.com/console/get-current-user-saved-tracks/
-const apiToken = "<<Copiez le token de Spotify ici>>"
+const apiToken = "BQDbpesgCg29XFIxfAFgRuvnNjM9CifCq-OLjZnlXG81niNw5Y0_sQio55-rMkC4l5P_eNhY7-sIJ5s2syZVzV68Mwi9gzXLvYKGQznPiARUN95ar3pVsG7sSg1rd7u0gKKPfRrRWnGUev4FZFxVLSpN798f_Q"
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
       <header className={styles.appHeader}>
         <img src={logo} className={styles.appLogo} alt="logo" />
         <h1 className={styles.appTitle}>Bienvenue sur le Blindtest</h1>
-        <p>Il va falloir modifier le code pour faire un vrai Blindtest !</p>
+        <p>Aller c'est l'heure de coder !</p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
